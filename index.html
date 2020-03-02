@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển Đổi Giữa Feet và Meters</title>
+</head>
+<body>
+<h2>Chuyển Đổi Giữa Feet và Meters</h2>
+<form>
+    <table>
+        <tr>
+            <th></th>
+            <th>Form unit:</th>
+            <th>To unit:</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input type="text" id="inputdata"/></td>
+            <td>
+                <select id="unit1">
+                    <option value="Feet">Feet</option>
+                    <option value="Meter">Meter</option>
+                </select>
+            </td>
+            <td>
+                <select id="unit2">
+                    <option value="Meter">Meter</option>
+                    <option value="Feet">Feet</option>
+                </select>
+            </td>
+            <td><button type="button" onclick="convert()">Convert</button></td>
+        </tr>
+    </table>
+    <p id="result"></p>
+</form>
+<script src="js/app.js"></script>
+</body>
+</html>
